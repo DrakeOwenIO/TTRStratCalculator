@@ -1,0 +1,44 @@
+/* Meyer's CSS Reset */
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Set base font size and line height */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    font-size: 16px; /* Default font size */
+    line-height: 1.5; /* Default line height */
+}
+
+/* Remove hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent element */
+}
+
+/* Set images and embedded content to be responsive */
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set form elements to have consistent styles */
+input, textarea, button {
+    font-family: inherit; /* Inherit font family from parent element */
+    font-size: inherit; /* Inherit font size from parent element */
+}
+
+/* Additional resets can be added as needed based on your specific requirements */
